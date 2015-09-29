@@ -71,3 +71,6 @@ void print(int x,int y,Color* col,String s){
                           makecol(col->r,col->g,col->b),-1);
     }
 }
+void close_button(){
+    quit_game=true;
+}

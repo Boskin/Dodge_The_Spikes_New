@@ -29,6 +29,8 @@ bool Player::collision(){
 void Player::reset(){
     x=start_x;
     y=start_y;
+    col_x=x;
+    col_y=y;
     alive=true;
 }
 void Player::export_data(ofstream* out){
@@ -38,4 +40,6 @@ void Player::import_data(ifstream* in){
     *in>>start_x>>start_y;
     x=start_x;
     y=start_y;
+    col_x=x;
+    col_y=y;
 }

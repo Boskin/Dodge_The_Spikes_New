@@ -28,5 +28,6 @@ void clean_up();
 bool mouse_inbound();
 void draw_borders();
 void mouse_buttons();
+void close_button();
 void print(int x,int y,Color* col,String s);
 #endif

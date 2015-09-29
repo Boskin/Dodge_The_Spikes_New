@@ -1,7 +1,9 @@
+#include<string>
 #include<time.h>
 #include"declarations.h"
 #include"level.h"
 int main(){
+    std::string hello = "Hello world!";
     init();
     Level* level[5];
     for(int i=0;i<5;i++)

@@ -1,0 +1,6 @@
+all:test.o string.o
+	g++ test.o string.o -o test.exe -lstdc++
+test.o:test.cpp
+	g++ test.cpp -c
+string.o:string.cpp string.h
+	g++ string.cpp -c
