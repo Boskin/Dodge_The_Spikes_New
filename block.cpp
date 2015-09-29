@@ -1,7 +1,7 @@
 #include"block.h"
 Block::Block():x(-100),y(-100){}
 void Block::draw(bool editor){
-	draw_sprite(BUFFER,BLOCK_SPRITE,x,y);
+    draw_sprite(BUFFER,BLOCK_SPRITE,x,y);
 }
 bool Block::check_placed(){
     return (x>-100);
